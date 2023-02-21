@@ -1,20 +1,30 @@
 {
-  "name": "@blogbox/bp-express",
-  "version": "1.0.0",
+  "name": "@blogbox/bpe",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
+  "private": false,
+  "bin": {
+    "bpe": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "s.wichitpong",
-  "license": "ISC",
-  "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:Dev-Songkran/BPE.git"
+    "url": "git+https://github.com/Dev-Songkran/BPE.git"
   },
-  "bin": {
-    "bp-express": "./bin/index.js"
+  "keywords": [],
+  "author": "Songkran W. <s.wichitpong@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dev-Songkran/BPE/issues"
+  },
+  "homepage": "https://github.com/Dev-Songkran/BPE#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "cross-spawn": "^7.0.3",
+    "semver": "^7.3.8"
   }
 }
