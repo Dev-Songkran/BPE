@@ -5,7 +5,7 @@ const commander = require("commander");
 const spawn = require("cross-spawn");
 const fs = require("fs");
 
-export const init = () => {
+const init = () => {
   const program = new commander.Command("service-express")
     .version("1.0.0")
     .arguments("<project-directory>")
@@ -107,3 +107,5 @@ const createServer = ({ name, verbose, scriptsVersion, template }) => {
 
   console.log("🎉 Success installation.");
 };
+
+module.exports = { init };
