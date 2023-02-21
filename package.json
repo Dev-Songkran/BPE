@@ -9,11 +9,7 @@
   "keywords": [],
   "author": "s.wichitpong",
   "license": "ISC",
-  "dependencies": {
-    "chalk": "^5.2.0",
-    "commander": "^10.0.0",
-    "conf": "^11.0.1"
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git@github.com:Dev-Songkran/BPE.git"
