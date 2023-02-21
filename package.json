@@ -1,6 +1,6 @@
 {
   "name": "@blogbox/bpe",
-  "version": "1.2.1",
+  "version": "1.2.5",
   "description": "",
   "main": "index.js",
   "private": false,
@@ -22,9 +22,10 @@
   },
   "homepage": "https://github.com/Dev-Songkran/BPE#readme",
   "dependencies": {
-    "chalk": "^5.2.0",
+    "chalk": "^4.1.2",
     "commander": "^10.0.0",
     "cross-spawn": "^7.0.3",
+    "fs-extra": "^11.1.0",
     "semver": "^7.3.8"
   }
 }
